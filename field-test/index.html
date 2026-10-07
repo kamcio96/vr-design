@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VR Design – test terenowy</title>
+    <style>
+      html, body { margin: 0; height: 100%; background: #111; color: #eee; font-family: system-ui, sans-serif; }
+      main { max-width: 640px; margin: 0 auto; padding: 24px 16px; line-height: 1.5; }
+      h1 { font-size: 22px; margin: 0 0 12px; }
+      .buttons { display: flex; gap: 12px; margin: 20px 0; flex-wrap: wrap; }
+      button {
+        flex: 1; min-width: 200px; padding: 18px; font-size: 18px; border: 0; border-radius: 8px;
+        background: #2f6fd6; color: #fff; cursor: pointer;
+      }
+      button:disabled { background: #444; color: #999; cursor: default; }
+      #status { padding: 10px 12px; background: #222; border-radius: 6px; }
+      td { padding: 2px 12px 2px 0; vertical-align: top; }
+      b { color: #ffd54a; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Test terenowy: dryf i zasięg</h1>
+      <div id="status">Sprawdzam obsługę WebXR…</div>
+      <div class="buttons">
+        <button id="start-mr" disabled>Start MR (passthrough)</button>
+        <button id="start-vr" disabled>Start VR</button>
+      </div>
+      <table>
+        <tr><td><b>Prawy spust</b></td><td>postaw znacznik (przyłóż prawy kontroler do palika)</td></tr>
+        <tr><td><b>Prawy grip</b></td><td>pomiar: przyłóż kontroler do tego samego palika, zapisze odchyłkę od najbliższego znacznika</td></tr>
+        <tr><td><b>A</b></td><td>przezroczystość siatki i znaczników</td></tr>
+        <tr><td><b>B</b></td><td>wyślij wyniki na laptopa</td></tr>
+      </table>
+      <p>Wyniki zapisują się na laptopie w <code>field-test/results/</code>.</p>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

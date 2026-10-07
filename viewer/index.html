@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VR Design – podgląd</title>
+    <style>
+      html, body { margin: 0; height: 100%; overflow: hidden; background: #000; font-family: system-ui, sans-serif; }
+      #help {
+        position: absolute; top: 12px; left: 12px; padding: 10px 14px;
+        background: rgba(0, 0, 0, 0.6); color: #fff; font-size: 14px; line-height: 1.5;
+        border-radius: 6px; pointer-events: none; user-select: none;
+      }
+      #help b { color: #ffd54a; }
+      #download-glb {
+        position: absolute; top: 12px; right: 12px; padding: 8px 14px; font-size: 14px;
+        border: 1px solid #fff; border-radius: 6px; background: rgba(0, 0, 0, 0.6); color: #fff; cursor: pointer;
+      }
+      #drop {
+        position: absolute; inset: 0; display: none; align-items: center; justify-content: center;
+        background: rgba(30, 90, 200, 0.4); color: #fff; font-size: 28px; pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="help">
+      <b>Kliknij w obraz</b>, żeby sterować · <b>WASD</b> ruch · <b>mysz</b> rozglądanie<br />
+      <b>Shift</b> szybciej · <b>Esc</b> zwolnij mysz · <b>R</b> powrót na start<br />
+      Przeciągnij na okno plik <b>.glb</b> albo plan <b>.json</b> z importera
+    </div>
+    <button id="download-glb">Pobierz GLB</button>
+    <div id="drop">Upuść plik GLB lub plan JSON</div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

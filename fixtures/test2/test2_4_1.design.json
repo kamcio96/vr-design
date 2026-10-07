@@ -1,0 +1,32 @@
+{
+  "_opis": "test2_4_1: zmiany narysowane ręcznie na test2_4.png (rzut kontrolny test2_2). Tylko narysowane elementy, bez dekoracji. Współrzędne w metrach w układzie PlanModel (X w prawo, Z w dół rzutu, środek budynku w 0,0); 1 px rysunku = 0,018165 m, środek w pikselu (180,5; 253).",
+  "materials": {
+    "szklo_blekitne": {"color": "#9fd3ee", "roughness": 0.05, "transparent": true, "opacity": 0.35}
+  },
+  "zones": [
+    {"_": "pokoje po podziale lamelami i szklaną ścianą; tylko do rzutu z wymiarami (--dimensions)", "name": "Sypialnia", "polygon": [[-2.716, -2.997], [-0.293, -2.997], [-0.293, -1.292], [-0.777, -1.292], [-0.777, 0.708], [-2.716, 0.708]]},
+    {"name": "Salon", "polygon": [[-0.233, -2.997], [2.716, -2.997], [2.716, 0.145], [-0.677, 0.145], [-0.677, -1.232], [-0.233, -1.232]]}
+  ],
+  "removeFurniture": [
+    {"_": "w miejscu łóżka", "type": "szafa", "near": [-2.407, -2.025]},
+    {"_": "kanapa przeniesiona", "type": "kanapa", "near": [2.062, -1.48]},
+    {"_": "w miejscu szafy narożnej", "type": "kanapa", "near": [-1.744, 0.391]},
+    {"_": "w miejscu nowej kanapy", "type": "fotel", "near": [0.063, -1.957]},
+    {"type": "stolik", "near": [1.235, -1.49]},
+    {"type": "stol_okragly", "near": [-1.826, -0.518]},
+    {"_": "TV przeniesiony na prawą ścianę", "type": "tv", "near": [1.045, -0.091]}
+  ],
+  "addFurniture": [
+    {"_": "drewniane lamele (żółte), od ściany zewnętrznej do szklanej ściany", "type": "lamele", "size": [1.735, 0.06, 2.6], "position": [-0.263, -2.13], "rotation": 90},
+    {"type": "lamele", "size": [0.434, 0.06, 2.6], "position": [-0.51, -1.262], "rotation": 0},
+    {"_": "przesuwna ściana z błękitnego szkła, do murku przy łazience", "type": "scianka_szklana", "size": [1.377, 0.1, 2.6], "position": [-0.727, -0.544], "rotation": 90, "materials": {"szklo": "szklo_blekitne"}},
+    {"_": "salon", "type": "kanapa", "size": [1.75, 0.85, 0.8], "position": [0.192, -2.122], "rotation": 270},
+    {"type": "tv", "size": [1.42, 0.18, 0.5], "position": [2.626, -2.035], "rotation": 90, "params": {"wall": true}},
+    {"_": "stół jadalniany", "type": "stol_okragly", "size": [1.05, 1.05, 0.75], "position": [1.635, -0.572]},
+    {"_": "lewy pokój", "type": "lozko", "size": [1.1, 1.96, 0.5], "position": [-2.157, -2.016], "rotation": 0},
+    {"type": "biurko", "size": [1.6, 0.6, 0.75], "position": [-0.6, -2.197], "rotation": 90},
+    {"type": "krzeslo", "size": [0.46, 0.5, 0.85], "position": [-1.235, -2.216], "rotation": 270},
+    {"_": "szafa narożna w L", "type": "szafa", "size": [0.955, 0.62, 2.2], "position": [-2.407, -0.558], "rotation": 270},
+    {"type": "szafa", "size": [1.8, 0.79, 2.2], "position": [-1.817, 0.314], "rotation": 180}
+  ]
+}

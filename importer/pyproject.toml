@@ -1,0 +1,20 @@
+[project]
+name = "plan2model"
+version = "0.1.0"
+description = "Automat: rzut PNG/JPG -> PlanModel JSON"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.1",
+    "opencv-python-headless>=4.10",
+    "pytesseract>=0.3.13",
+]
+
+[project.scripts]
+plan2model = "plan2model.__main__:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

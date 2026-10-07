@@ -1,0 +1,21 @@
+{
+  "name": "vr-design-viewer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "export-glb": "esbuild scripts/export-glb.ts --bundle --platform=node --format=esm --log-level=warning --outfile=node_modules/.cache/export-glb.mjs && node node_modules/.cache/export-glb.mjs"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.170.0",
+    "@vitejs/plugin-basic-ssl": "^1.2.0",
+    "typescript": "^5.6.0",
+    "vite": "^5.4.0"
+  }
+}

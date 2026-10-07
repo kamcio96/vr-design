@@ -1,0 +1,80 @@
+{
+  "_opis": "test2_3: wygląd i dekoracje według fixtures/test2/test2_wiz.png (wizualizacja dewelopera, rzut obrócony o 180°). Współrzędne w metrach w układzie PlanModel (X w prawo, Z w dół rzutu, środek budynku w 0,0).",
+  "materials": {
+    "podloga": {"texture": "laminate_floor_02", "tileM": 1.7, "roughness": 0.55},
+    "plytki": {"color": "#c3c3bf", "texture": "concrete_tiles_02", "normalOnly": true, "tileM": 1.825, "roughness": 0.55},
+    "fartuch": {"color": "#d6d6d2", "texture": "concrete_tiles_02", "normalOnly": true, "tileM": 0.6, "roughness": 0.4},
+    "balkon": {"color": "#a9a9a6", "texture": "concrete_tiles_02", "normalOnly": true, "tileM": 1.2},
+    "blat": {"texture": "oak_veneer_01", "tileM": 1.83, "roughness": 0.45},
+    "drewno": {"texture": "oak_veneer_01", "tileM": 1.83, "roughness": 0.5},
+    "tkanina": {"color": "#9fa3a7", "texture": "denim_fabric_05", "normalOnly": true, "tileM": 0.27, "roughness": 0.95},
+    "poducha": {"color": "#b0b3b6", "texture": "denim_fabric_05", "normalOnly": true, "tileM": 0.27, "roughness": 0.95},
+    "poducha_dekor": {"color": "#d9dad8", "texture": "denim_fabric_05", "normalOnly": true, "tileM": 0.27},
+    "koc": {"color": "#66696d", "texture": "denim_fabric_05", "normalOnly": true, "tileM": 0.27},
+    "tkanina_bez": {"color": "#e6d8c8", "texture": "denim_fabric_05", "normalOnly": true, "tileM": 0.27},
+    "bialy": {"color": "#eeece8", "roughness": 0.5},
+    "czarny": {"color": "#1d1e20", "roughness": 0.5},
+    "rama_okna": {"color": "#3b3e42", "roughness": 0.5}
+  },
+  "rooms": {
+    "Łazienka": {"floor": "plytki", "walls": "plytki"}
+  },
+  "removeFurniture": [
+    {"type": "blat", "near": [1.39, 0.554]},
+    {"type": "blat", "near": [1.39, 2.825]},
+    {"type": "blat", "near": [2.162, 1.689]},
+    {"type": "plyta", "near": [1.39, 0.527]},
+    {"type": "zlew", "near": [2.171, 1.653]},
+    {"type": "stolik", "near": [1.235, -1.49]},
+    {"type": "prysznic", "near": [-2.234, 1.281]}
+  ],
+  "updateFurniture": [
+    {"type": "stol_okragly", "near": [-1.826, -0.518], "set": {"position": [1.0, -1.45], "size": [0.75, 0.75, 0.75], "materials": {"drewno": "bialy", "ciemny": "bialy"}}},
+    {"type": "fotel", "near": [0.063, -1.957], "set": {"rotation": 298}},
+    {"type": "kanapa", "near": [2.062, -1.48], "set": {"params": {"pillows": 2}}},
+    {"type": "kanapa", "near": [-1.744, 0.391], "set": {"params": {"pillows": 3, "throw": true}}},
+    {"type": "tv", "near": [1.045, -0.091], "set": {"materials": {"drewno": "bialy"}}},
+    {"type": "wc", "near": [-1.926, 2.807], "set": {"size": [0.49, 0.672, 1.15], "params": {"wallHung": true}, "materials": {"obudowa": "plytki"}}}
+  ],
+  "addFurniture": [
+    {"_": "kuchnia: blat w L, zabudowa z lodówką, stół z krzesłami", "type": "blat", "size": [2.024, 0.6, 0.9], "position": [2.161, 2.112], "rotation": 90, "params": {"backsplash": true}},
+    {"type": "blat", "size": [0.411, 0.6, 0.9], "position": [1.656, 2.824], "rotation": 180, "params": {"backsplash": true}},
+    {"type": "plyta", "size": [0.6, 0.6, 0.9], "position": [2.161, 2.6], "rotation": 90},
+    {"type": "zlew", "size": [0.6, 0.6, 0.9], "position": [2.161, 1.6], "rotation": 90},
+    {"type": "zabudowa", "size": [0.605, 0.6, 2.1], "position": [1.148, 2.824], "rotation": 180, "params": {"fridge": true}},
+    {"type": "czajnik", "size": [0.18, 0.18, 0.25], "position": [1.656, 2.95], "rotation": 180, "elevation": 0.9},
+    {"type": "roslina", "size": [0.22, 0.22, 0.32], "position": [2.3, 1.22], "elevation": 0.9, "params": {"seed": 3}},
+    {"type": "stol_okragly", "size": [0.8, 0.8, 0.75], "position": [1.45, 0.8], "materials": {"drewno": "bialy", "ciemny": "bialy"}},
+    {"type": "krzeslo", "size": [0.46, 0.5, 0.8], "position": [1.14, 1.35], "rotation": 180, "materials": {"tkanina": "tkanina_bez"}},
+    {"type": "krzeslo", "size": [0.46, 0.5, 0.8], "position": [1.62, 1.35], "rotation": 180, "materials": {"tkanina": "tkanina_bez"}},
+    {"type": "lampa_wiszaca", "size": [0.45, 0.45, 0.25], "position": [1.45, 0.8], "elevation": 1.6, "params": {"ceilingAbove": 0.75}},
+    {"type": "lampa_stojaca", "size": [0.4, 0.4, 1.6], "position": [0.98, 0.45]},
+    {"_": "pokój", "type": "wazon", "size": [0.1, 0.1, 0.4], "position": [1.0, -1.45], "elevation": 0.75},
+    {"type": "lampa_stojaca", "size": [0.4, 0.4, 1.6], "position": [-0.45, -2.45]},
+    {"type": "roslina", "size": [0.7, 0.7, 1.2], "position": [2.25, -0.25], "params": {"kind": "monstera", "seed": 1}},
+    {"type": "roslina", "size": [0.45, 0.45, 0.9], "position": [2.4, -2.75], "params": {"seed": 2}},
+    {"type": "ksiazki", "size": [0.3, 0.2, 0.22], "position": [0.55, -0.12], "rotation": 180, "elevation": 0.45},
+    {"type": "roslina", "size": [0.16, 0.16, 0.25], "position": [1.65, -0.12], "elevation": 0.45, "params": {"seed": 4}},
+    {"_": "kąt przy łazience", "type": "dywan", "size": [1.7, 1.1, 0.01], "position": [-1.75, -0.25]},
+    {"type": "stolik_boczny", "size": [0.4, 0.4, 0.5], "position": [-2.45, -0.35]},
+    {"type": "obraz", "size": [0.36, 0.025, 0.28], "position": [-2.3, 0.695], "rotation": 180, "elevation": 1.25},
+    {"type": "obraz", "size": [0.36, 0.025, 0.28], "position": [-1.9, 0.695], "rotation": 180, "elevation": 1.25},
+    {"type": "obraz", "size": [0.36, 0.025, 0.28], "position": [-1.5, 0.695], "rotation": 180, "elevation": 1.25},
+    {"type": "obraz", "size": [0.36, 0.025, 0.28], "position": [-1.1, 0.695], "rotation": 180, "elevation": 1.25},
+    {"_": "łazienka", "type": "kabina", "size": [0.963, 0.963, 2.0], "position": [-2.234, 1.281], "params": {"glass": ["front", "right"]}, "materials": {"cien": "plytki"}},
+    {"type": "lustro", "size": [0.5, 0.025, 0.7], "position": [-1.281, 0.812], "elevation": 1.05},
+    {"type": "polka", "size": [0.6, 0.2, 0.025], "position": [-1.099, 3.024], "rotation": 180, "elevation": 1.35},
+    {"type": "kosmetyki", "size": [0.5, 0.12, 0.2], "position": [-1.099, 3.03], "rotation": 180, "elevation": 1.375},
+    {"type": "roslina", "size": [0.2, 0.2, 0.3], "position": [-1.75, 3.01], "elevation": 1.15, "params": {"seed": 5}}
+  ],
+  "updateOpenings": [
+    {"type": "door", "near": [-0.128, 3.215], "set": {"door": {"leafMaterial": "czarny", "frameMaterial": "czarny"}}},
+    {"type": "door", "near": [1.163, -3.152], "set": {"door": {"leafMaterial": "szklo", "frameMaterial": "rama_okna"}}}
+  ],
+  "addOpenings": [
+    {"_": "drzwi harmonijkowe na końcu ścianki przy kanapie, złożone", "type": "folding", "a": [-0.7175, 0.145], "b": [-0.7175, -0.55], "thickness": 0.06, "height": 2.05, "door": {"hinge": "a", "swing": 1, "leafMaterial": "drewno"}}
+  ],
+  "balconies": [
+    {"polygon": [[0.445, -3.306], [2.843, -3.306], [2.843, -4.505], [0.445, -4.505]], "railingHeight": 1.1, "floorMaterial": "balkon"}
+  ]
+}

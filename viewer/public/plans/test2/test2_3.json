@@ -1,0 +1,1266 @@
+{
+ "schemaVersion": 4,
+ "units": "m",
+ "source": {
+  "file": "test2.png",
+  "metersPerPixel": 0.018165,
+  "scaleMethod": "areas-total",
+  "outlineSize": [
+   5.831,
+   6.612
+  ]
+ },
+ "storey": {
+  "height": 2.6
+ },
+ "walls": [
+  {
+   "id": "w1",
+   "a": [
+    -2.734,
+    -3.152
+   ],
+   "b": [
+    -1.844,
+    -3.152
+   ],
+   "thickness": 0.309,
+   "height": 2.6
+  },
+  {
+   "id": "w2",
+   "a": [
+    -2.734,
+    0.754
+   ],
+   "b": [
+    -0.681,
+    0.754
+   ],
+   "thickness": 0.091,
+   "height": 2.6
+  },
+  {
+   "id": "w3",
+   "a": [
+    -2.734,
+    2.016
+   ],
+   "b": [
+    -2.552,
+    2.016
+   ],
+   "thickness": 0.073,
+   "height": 2.6
+  },
+  {
+   "id": "w4",
+   "a": [
+    -2.734,
+    3.224
+   ],
+   "b": [
+    -0.627,
+    3.224
+   ],
+   "thickness": 0.163,
+   "height": 2.6
+  },
+  {
+   "id": "w5",
+   "a": [
+    -0.609,
+    -3.152
+   ],
+   "b": [
+    0.518,
+    -3.152
+   ],
+   "thickness": 0.309,
+   "height": 2.6
+  },
+  {
+   "id": "w6",
+   "a": [
+    0.372,
+    3.215
+   ],
+   "b": [
+    2.734,
+    3.215
+   ],
+   "thickness": 0.182,
+   "height": 2.6
+  },
+  {
+   "id": "w7",
+   "a": [
+    0.772,
+    0.182
+   ],
+   "b": [
+    2.734,
+    0.182
+   ],
+   "thickness": 0.073,
+   "height": 2.6
+  },
+  {
+   "id": "w8",
+   "a": [
+    1.953,
+    -3.152
+   ],
+   "b": [
+    2.734,
+    -3.152
+   ],
+   "thickness": 0.309,
+   "height": 2.6
+  },
+  {
+   "id": "w9",
+   "a": [
+    2.552,
+    1.072
+   ],
+   "b": [
+    2.734,
+    1.072
+   ],
+   "thickness": 0.073,
+   "height": 2.6
+  },
+  {
+   "id": "w10",
+   "a": [
+    -2.816,
+    -3.306
+   ],
+   "b": [
+    -2.816,
+    3.306
+   ],
+   "thickness": 0.2,
+   "height": 2.6
+  },
+  {
+   "id": "w11",
+   "a": [
+    2.816,
+    -3.306
+   ],
+   "b": [
+    2.816,
+    3.306
+   ],
+   "thickness": 0.2,
+   "height": 2.6
+  },
+  {
+   "id": "w12",
+   "a": [
+    -0.727,
+    0.145
+   ],
+   "b": [
+    -0.727,
+    0.745
+   ],
+   "thickness": 0.091,
+   "height": 2.6
+  },
+  {
+   "id": "w13",
+   "a": [
+    0.808,
+    0.2
+   ],
+   "b": [
+    0.808,
+    1.144
+   ],
+   "thickness": 0.073,
+   "height": 2.6
+  },
+  {
+   "id": "w14",
+   "a": [
+    -0.727,
+    0.799
+   ],
+   "b": [
+    -0.727,
+    1.471
+   ],
+   "thickness": 0.091,
+   "height": 2.6
+  },
+  {
+   "id": "w15",
+   "a": [
+    2.507,
+    1.035
+   ],
+   "b": [
+    2.507,
+    3.143
+   ],
+   "thickness": 0.091,
+   "height": 2.6
+  },
+  {
+   "id": "w16",
+   "a": [
+    -2.516,
+    1.98
+   ],
+   "b": [
+    -2.516,
+    3.143
+   ],
+   "thickness": 0.073,
+   "height": 2.6
+  },
+  {
+   "id": "w17",
+   "a": [
+    -0.718,
+    2.325
+   ],
+   "b": [
+    -0.718,
+    3.124
+   ],
+   "thickness": 0.109,
+   "height": 2.6
+  },
+  {
+   "id": "w18",
+   "a": [
+    0.799,
+    2.525
+   ],
+   "b": [
+    0.799,
+    3.124
+   ],
+   "thickness": 0.091,
+   "height": 2.6
+  },
+  {
+   "id": "w19",
+   "a": [
+    2.634,
+    1.108
+   ],
+   "b": [
+    2.634,
+    3.124
+   ],
+   "thickness": 0.163,
+   "height": 2.6
+  },
+  {
+   "id": "w20",
+   "a": [
+    -2.634,
+    2.053
+   ],
+   "b": [
+    -2.634,
+    3.143
+   ],
+   "thickness": 0.163,
+   "height": 2.6
+  }
+ ],
+ "openings": [
+  {
+   "id": "o1",
+   "type": "window",
+   "a": [
+    -1.844,
+    -3.152
+   ],
+   "b": [
+    -0.609,
+    -3.152
+   ],
+   "thickness": 0.309,
+   "sill": 0.85,
+   "height": 2.05
+  },
+  {
+   "id": "o2",
+   "type": "door",
+   "a": [
+    -0.627,
+    3.215
+   ],
+   "b": [
+    0.372,
+    3.215
+   ],
+   "thickness": 0.182,
+   "sill": 0.0,
+   "height": 2.05,
+   "door": {
+    "hinge": "a",
+    "swing": -1,
+    "openAngle": 90,
+    "leafMaterial": "czarny",
+    "frameMaterial": "czarny"
+   }
+  },
+  {
+   "id": "o3",
+   "type": "door",
+   "a": [
+    0.609,
+    -3.152
+   ],
+   "b": [
+    1.717,
+    -3.152
+   ],
+   "thickness": 0.309,
+   "sill": 0.0,
+   "height": 2.05,
+   "door": {
+    "hinge": "a",
+    "swing": 1,
+    "openAngle": 90,
+    "leafMaterial": "szklo",
+    "frameMaterial": "rama_okna"
+   }
+  },
+  {
+   "id": "o4",
+   "type": "window",
+   "a": [
+    1.717,
+    -3.152
+   ],
+   "b": [
+    1.953,
+    -3.152
+   ],
+   "thickness": 0.309,
+   "sill": 0.85,
+   "height": 2.05
+  },
+  {
+   "id": "o5",
+   "type": "door",
+   "a": [
+    -0.718,
+    1.471
+   ],
+   "b": [
+    -0.718,
+    2.325
+   ],
+   "thickness": 0.109,
+   "sill": 0.0,
+   "height": 2.05,
+   "door": {
+    "hinge": "b",
+    "swing": -1,
+    "openAngle": 90
+   }
+  },
+  {
+   "id": "o6",
+   "sill": 0.0,
+   "height": 2.05,
+   "type": "folding",
+   "a": [
+    -0.7175,
+    0.145
+   ],
+   "b": [
+    -0.7175,
+    -0.55
+   ],
+   "thickness": 0.06,
+   "door": {
+    "hinge": "a",
+    "swing": 1,
+    "leafMaterial": "drewno"
+   }
+  }
+ ],
+ "rooms": [
+  {
+   "id": "r1",
+   "name": "Hol + Pokój + Kuchnia",
+   "polygon": [
+    [
+     -2.716,
+     -2.997
+    ],
+    [
+     -2.716,
+     0.69
+    ],
+    [
+     -0.79,
+     0.69
+    ],
+    [
+     -0.79,
+     0.145
+    ],
+    [
+     -0.681,
+     0.145
+    ],
+    [
+     -0.663,
+     3.124
+    ],
+    [
+     0.736,
+     3.106
+    ],
+    [
+     0.754,
+     2.507
+    ],
+    [
+     0.845,
+     2.525
+    ],
+    [
+     0.845,
+     3.106
+    ],
+    [
+     2.443,
+     3.106
+    ],
+    [
+     2.443,
+     1.035
+    ],
+    [
+     2.698,
+     1.017
+    ],
+    [
+     2.698,
+     0.218
+    ],
+    [
+     0.845,
+     0.218
+    ],
+    [
+     0.845,
+     1.126
+    ],
+    [
+     0.772,
+     1.144
+    ],
+    [
+     0.754,
+     0.145
+    ],
+    [
+     2.698,
+     0.127
+    ],
+    [
+     2.698,
+     -2.997
+    ]
+   ],
+   "area": 27.46,
+   "areaOnPlan": 27.44,
+   "materials": null
+  },
+  {
+   "id": "r2",
+   "name": "Łazienka",
+   "polygon": [
+    [
+     -2.716,
+     0.799
+    ],
+    [
+     -2.716,
+     1.962
+    ],
+    [
+     -2.48,
+     1.98
+    ],
+    [
+     -2.48,
+     3.124
+    ],
+    [
+     -0.79,
+     3.124
+    ],
+    [
+     -0.79,
+     0.799
+    ]
+   ],
+   "area": 4.28,
+   "areaOnPlan": 4.3,
+   "materials": {
+    "floor": "plytki",
+    "walls": "plytki"
+   }
+  }
+ ],
+ "furniture": [
+  {
+   "id": "f1",
+   "type": "szafa",
+   "size": [
+    1.944,
+    0.618,
+    2.2
+   ],
+   "position": [
+    -2.407,
+    -2.025
+   ],
+   "rotation": 270.0,
+   "params": {
+    "modules": 2
+   }
+  },
+  {
+   "id": "f2",
+   "type": "kanapa",
+   "size": [
+    1.835,
+    0.727,
+    0.8
+   ],
+   "position": [
+    2.062,
+    -1.48
+   ],
+   "rotation": 90.0,
+   "params": {
+    "seats": 3,
+    "pillows": 2
+   }
+  },
+  {
+   "id": "f3",
+   "type": "fotel",
+   "size": [
+    0.799,
+    0.705,
+    0.8
+   ],
+   "position": [
+    0.063,
+    -1.957
+   ],
+   "rotation": 298,
+   "params": {
+    "tilted": true
+   }
+  },
+  {
+   "id": "f4",
+   "type": "stol_okragly",
+   "size": [
+    0.75,
+    0.75,
+    0.75
+   ],
+   "position": [
+    1.0,
+    -1.45
+   ],
+   "rotation": 0,
+   "materials": {
+    "drewno": "bialy",
+    "ciemny": "bialy"
+   }
+  },
+  {
+   "id": "f5",
+   "type": "tv",
+   "size": [
+    1.562,
+    0.472,
+    0.5
+   ],
+   "position": [
+    1.045,
+    -0.091
+   ],
+   "rotation": 180.0,
+   "materials": {
+    "drewno": "bialy"
+   }
+  },
+  {
+   "id": "f6",
+   "type": "szafa",
+   "size": [
+    0.945,
+    0.581,
+    2.2
+   ],
+   "position": [
+    0.481,
+    0.69
+   ],
+   "rotation": 90.0,
+   "params": {
+    "modules": 1
+   }
+  },
+  {
+   "id": "f7",
+   "type": "kanapa",
+   "size": [
+    1.944,
+    0.636,
+    0.8
+   ],
+   "position": [
+    -1.744,
+    0.391
+   ],
+   "rotation": 180.0,
+   "params": {
+    "seats": 3,
+    "pillows": 3,
+    "throw": true
+   }
+  },
+  {
+   "id": "f8",
+   "type": "umywalka",
+   "size": [
+    0.545,
+    0.436,
+    0.85
+   ],
+   "position": [
+    -1.281,
+    1.017
+   ],
+   "rotation": 0.0
+  },
+  {
+   "id": "f9",
+   "type": "wc",
+   "size": [
+    0.49,
+    0.672,
+    1.15
+   ],
+   "position": [
+    -1.926,
+    2.807
+   ],
+   "rotation": 180.0,
+   "params": {
+    "wallHung": true
+   },
+   "materials": {
+    "obudowa": "plytki"
+   }
+  },
+  {
+   "id": "f10",
+   "type": "pralka",
+   "size": [
+    0.654,
+    0.454,
+    0.85
+   ],
+   "position": [
+    -1.099,
+    2.916
+   ],
+   "rotation": 180.0
+  },
+  {
+   "id": "f11",
+   "rotation": 90,
+   "type": "blat",
+   "size": [
+    2.024,
+    0.6,
+    0.9
+   ],
+   "position": [
+    2.161,
+    2.112
+   ],
+   "params": {
+    "backsplash": true
+   }
+  },
+  {
+   "id": "f12",
+   "rotation": 180,
+   "type": "blat",
+   "size": [
+    0.411,
+    0.6,
+    0.9
+   ],
+   "position": [
+    1.656,
+    2.824
+   ],
+   "params": {
+    "backsplash": true
+   }
+  },
+  {
+   "id": "f13",
+   "rotation": 90,
+   "type": "plyta",
+   "size": [
+    0.6,
+    0.6,
+    0.9
+   ],
+   "position": [
+    2.161,
+    2.6
+   ]
+  },
+  {
+   "id": "f14",
+   "rotation": 90,
+   "type": "zlew",
+   "size": [
+    0.6,
+    0.6,
+    0.9
+   ],
+   "position": [
+    2.161,
+    1.6
+   ]
+  },
+  {
+   "id": "f15",
+   "rotation": 180,
+   "type": "zabudowa",
+   "size": [
+    0.605,
+    0.6,
+    2.1
+   ],
+   "position": [
+    1.148,
+    2.824
+   ],
+   "params": {
+    "fridge": true
+   }
+  },
+  {
+   "id": "f16",
+   "rotation": 180,
+   "type": "czajnik",
+   "size": [
+    0.18,
+    0.18,
+    0.25
+   ],
+   "position": [
+    1.656,
+    2.95
+   ],
+   "elevation": 0.9
+  },
+  {
+   "id": "f17",
+   "rotation": 0,
+   "type": "roslina",
+   "size": [
+    0.22,
+    0.22,
+    0.32
+   ],
+   "position": [
+    2.3,
+    1.22
+   ],
+   "elevation": 0.9,
+   "params": {
+    "seed": 3
+   }
+  },
+  {
+   "id": "f18",
+   "rotation": 0,
+   "type": "stol_okragly",
+   "size": [
+    0.8,
+    0.8,
+    0.75
+   ],
+   "position": [
+    1.45,
+    0.8
+   ],
+   "materials": {
+    "drewno": "bialy",
+    "ciemny": "bialy"
+   }
+  },
+  {
+   "id": "f19",
+   "rotation": 180,
+   "type": "krzeslo",
+   "size": [
+    0.46,
+    0.5,
+    0.8
+   ],
+   "position": [
+    1.14,
+    1.35
+   ],
+   "materials": {
+    "tkanina": "tkanina_bez"
+   }
+  },
+  {
+   "id": "f20",
+   "rotation": 180,
+   "type": "krzeslo",
+   "size": [
+    0.46,
+    0.5,
+    0.8
+   ],
+   "position": [
+    1.62,
+    1.35
+   ],
+   "materials": {
+    "tkanina": "tkanina_bez"
+   }
+  },
+  {
+   "id": "f21",
+   "rotation": 0,
+   "type": "lampa_wiszaca",
+   "size": [
+    0.45,
+    0.45,
+    0.25
+   ],
+   "position": [
+    1.45,
+    0.8
+   ],
+   "elevation": 1.6,
+   "params": {
+    "ceilingAbove": 0.75
+   }
+  },
+  {
+   "id": "f22",
+   "rotation": 0,
+   "type": "lampa_stojaca",
+   "size": [
+    0.4,
+    0.4,
+    1.6
+   ],
+   "position": [
+    0.98,
+    0.45
+   ]
+  },
+  {
+   "id": "f23",
+   "rotation": 0,
+   "type": "wazon",
+   "size": [
+    0.1,
+    0.1,
+    0.4
+   ],
+   "position": [
+    1.0,
+    -1.45
+   ],
+   "elevation": 0.75
+  },
+  {
+   "id": "f24",
+   "rotation": 0,
+   "type": "lampa_stojaca",
+   "size": [
+    0.4,
+    0.4,
+    1.6
+   ],
+   "position": [
+    -0.45,
+    -2.45
+   ]
+  },
+  {
+   "id": "f25",
+   "rotation": 0,
+   "type": "roslina",
+   "size": [
+    0.7,
+    0.7,
+    1.2
+   ],
+   "position": [
+    2.25,
+    -0.25
+   ],
+   "params": {
+    "kind": "monstera",
+    "seed": 1
+   }
+  },
+  {
+   "id": "f26",
+   "rotation": 0,
+   "type": "roslina",
+   "size": [
+    0.45,
+    0.45,
+    0.9
+   ],
+   "position": [
+    2.4,
+    -2.75
+   ],
+   "params": {
+    "seed": 2
+   }
+  },
+  {
+   "id": "f27",
+   "rotation": 180,
+   "type": "ksiazki",
+   "size": [
+    0.3,
+    0.2,
+    0.22
+   ],
+   "position": [
+    0.55,
+    -0.12
+   ],
+   "elevation": 0.45
+  },
+  {
+   "id": "f28",
+   "rotation": 0,
+   "type": "roslina",
+   "size": [
+    0.16,
+    0.16,
+    0.25
+   ],
+   "position": [
+    1.65,
+    -0.12
+   ],
+   "elevation": 0.45,
+   "params": {
+    "seed": 4
+   }
+  },
+  {
+   "id": "f29",
+   "rotation": 0,
+   "type": "dywan",
+   "size": [
+    1.7,
+    1.1,
+    0.01
+   ],
+   "position": [
+    -1.75,
+    -0.25
+   ]
+  },
+  {
+   "id": "f30",
+   "rotation": 0,
+   "type": "stolik_boczny",
+   "size": [
+    0.4,
+    0.4,
+    0.5
+   ],
+   "position": [
+    -2.45,
+    -0.35
+   ]
+  },
+  {
+   "id": "f31",
+   "rotation": 180,
+   "type": "obraz",
+   "size": [
+    0.36,
+    0.025,
+    0.28
+   ],
+   "position": [
+    -2.3,
+    0.695
+   ],
+   "elevation": 1.25
+  },
+  {
+   "id": "f32",
+   "rotation": 180,
+   "type": "obraz",
+   "size": [
+    0.36,
+    0.025,
+    0.28
+   ],
+   "position": [
+    -1.9,
+    0.695
+   ],
+   "elevation": 1.25
+  },
+  {
+   "id": "f33",
+   "rotation": 180,
+   "type": "obraz",
+   "size": [
+    0.36,
+    0.025,
+    0.28
+   ],
+   "position": [
+    -1.5,
+    0.695
+   ],
+   "elevation": 1.25
+  },
+  {
+   "id": "f34",
+   "rotation": 180,
+   "type": "obraz",
+   "size": [
+    0.36,
+    0.025,
+    0.28
+   ],
+   "position": [
+    -1.1,
+    0.695
+   ],
+   "elevation": 1.25
+  },
+  {
+   "id": "f35",
+   "rotation": 0,
+   "type": "kabina",
+   "size": [
+    0.963,
+    0.963,
+    2.0
+   ],
+   "position": [
+    -2.234,
+    1.281
+   ],
+   "params": {
+    "glass": [
+     "front",
+     "right"
+    ]
+   },
+   "materials": {
+    "cien": "plytki"
+   }
+  },
+  {
+   "id": "f36",
+   "rotation": 0,
+   "type": "lustro",
+   "size": [
+    0.5,
+    0.025,
+    0.7
+   ],
+   "position": [
+    -1.281,
+    0.812
+   ],
+   "elevation": 1.05
+  },
+  {
+   "id": "f37",
+   "rotation": 180,
+   "type": "polka",
+   "size": [
+    0.6,
+    0.2,
+    0.025
+   ],
+   "position": [
+    -1.099,
+    3.024
+   ],
+   "elevation": 1.35
+  },
+  {
+   "id": "f38",
+   "rotation": 180,
+   "type": "kosmetyki",
+   "size": [
+    0.5,
+    0.12,
+    0.2
+   ],
+   "position": [
+    -1.099,
+    3.03
+   ],
+   "elevation": 1.375
+  },
+  {
+   "id": "f39",
+   "rotation": 0,
+   "type": "roslina",
+   "size": [
+    0.2,
+    0.2,
+    0.3
+   ],
+   "position": [
+    -1.75,
+    3.01
+   ],
+   "elevation": 1.15,
+   "params": {
+    "seed": 5
+   }
+  }
+ ],
+ "materials": {
+  "podloga": {
+   "texture": "laminate_floor_02",
+   "tileM": 1.7,
+   "roughness": 0.55
+  },
+  "plytki": {
+   "color": "#c3c3bf",
+   "texture": "concrete_tiles_02",
+   "normalOnly": true,
+   "tileM": 1.825,
+   "roughness": 0.55
+  },
+  "fartuch": {
+   "color": "#d6d6d2",
+   "texture": "concrete_tiles_02",
+   "normalOnly": true,
+   "tileM": 0.6,
+   "roughness": 0.4
+  },
+  "balkon": {
+   "color": "#a9a9a6",
+   "texture": "concrete_tiles_02",
+   "normalOnly": true,
+   "tileM": 1.2
+  },
+  "blat": {
+   "texture": "oak_veneer_01",
+   "tileM": 1.83,
+   "roughness": 0.45
+  },
+  "drewno": {
+   "texture": "oak_veneer_01",
+   "tileM": 1.83,
+   "roughness": 0.5
+  },
+  "tkanina": {
+   "color": "#9fa3a7",
+   "texture": "denim_fabric_05",
+   "normalOnly": true,
+   "tileM": 0.27,
+   "roughness": 0.95
+  },
+  "poducha": {
+   "color": "#b0b3b6",
+   "texture": "denim_fabric_05",
+   "normalOnly": true,
+   "tileM": 0.27,
+   "roughness": 0.95
+  },
+  "poducha_dekor": {
+   "color": "#d9dad8",
+   "texture": "denim_fabric_05",
+   "normalOnly": true,
+   "tileM": 0.27
+  },
+  "koc": {
+   "color": "#66696d",
+   "texture": "denim_fabric_05",
+   "normalOnly": true,
+   "tileM": 0.27
+  },
+  "tkanina_bez": {
+   "color": "#e6d8c8",
+   "texture": "denim_fabric_05",
+   "normalOnly": true,
+   "tileM": 0.27
+  },
+  "bialy": {
+   "color": "#eeece8",
+   "roughness": 0.5
+  },
+  "czarny": {
+   "color": "#1d1e20",
+   "roughness": 0.5
+  },
+  "rama_okna": {
+   "color": "#3b3e42",
+   "roughness": 0.5
+  }
+ },
+ "balconies": [
+  {
+   "polygon": [
+    [
+     0.445,
+     -3.306
+    ],
+    [
+     2.843,
+     -3.306
+    ],
+    [
+     2.843,
+     -4.505
+    ],
+    [
+     0.445,
+     -4.505
+    ]
+   ],
+   "railingHeight": 1.1,
+   "floorMaterial": "balkon"
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #222;
+  background: #f4f4f2;
+}
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.8rem 1.5rem;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: inherit;
+  text-decoration: none;
+}
+.steps {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.steps li {
+  padding: 0.3rem 0.8rem;
+  border-radius: 1rem;
+  background: #eee;
+  color: #888;
+}
+.steps li.done {
+  background: #dcefdc;
+  color: #2d6a2d;
+}
+.steps li.active {
+  background: #2d5fa8;
+  color: #fff;
+}
+main {
+  padding: 1.5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+section {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+h2 {
+  margin-top: 0.3rem;
+}
+label {
+  display: block;
+  margin: 0.8rem 0 0.3rem;
+  font-weight: 600;
+}
+.hint {
+  font-weight: 400;
+  color: #777;
+  font-size: 0.9rem;
+}
+input[type='text'],
+textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 0.4rem;
+  font: inherit;
+  box-sizing: border-box;
+}
+.drop {
+  border: 2px dashed #aaa;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  color: #666;
+  cursor: pointer;
+  max-width: 500px;
+}
+.drop.over {
+  border-color: #2d5fa8;
+  background: #eef3fb;
+}
+button {
+  font: inherit;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  border: 1px solid #999;
+  background: #fff;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+button.primary {
+  background: #2d5fa8;
+  border-color: #2d5fa8;
+  color: #fff;
+}
+button.danger {
+  border-color: #b33;
+  color: #b33;
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.images figure {
+  margin: 0;
+}
+.images img {
+  width: 100%;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: 0.25rem 0.8rem;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+td.num {
+  text-align: right;
+}
+pre {
+  background: #f7f7f7;
+  padding: 0.8rem;
+  overflow: auto;
+  white-space: pre-wrap;
+}
+.error {
+  color: #b33;
+}
+.badge {
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.6rem;
+  font-size: 0.85rem;
+  background: #eee;
+}
+.badge.zaakceptowany {
+  background: #dcefdc;
+  color: #2d6a2d;
+}
+.badge.do-akceptacji {
+  background: #fdf1d0;
+  color: #8a6400;
+}
+.badge.odrzucony,
+.badge.blad {
+  background: #f8dcdc;
+  color: #b33;
+}

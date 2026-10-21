@@ -126,7 +126,7 @@ def _check_materials(plan: dict[str, Any], names, where: str) -> None:
             raise DesignError(f"Plik projektu: {where} używa nieznanego materiału „{name}”.")
 
 
-# Materiały wbudowane w viewer (viewer/src/materials.ts). Plik projektu może dodawać nowe lub je nadpisywać.
+# Materiały wbudowane w generator geometrii (studio/src/geometry/materials.ts). Plik projektu może dodawać nowe lub je nadpisywać.
 BUILTIN_MATERIALS = {
     "tkanina", "poducha", "drewno", "bialy", "ceramika", "ciemny", "stal", "stal_czarna", "blat", "cien", "rama", "rama_okna",
     "skrzydlo", "szklo", "mebel", "sciana", "podloga", "abazur", "liscie", "doniczka", "lustro", "poducha_dekor",

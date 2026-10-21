@@ -43,6 +43,6 @@ export default defineConfig({
   plugins: [basicSsl(), resultsEndpoint()],
   server: {
     host: true, // nasłuch na wszystkich interfejsach, żeby gogle w LAN widziały serwer
-    port: 5174, // 5173 zajmuje viewer/
+    port: 5174, // 5173 zajmuje studio/
   },
 });

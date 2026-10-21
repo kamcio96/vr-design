@@ -1,0 +1,6 @@
+Skala: 2.594 cm na piksel (metoda: manual-width)
+Obrys budynku: 5.37 × 12.27 m
+Ściany: 34, pomieszczenia: 1, drzwi: 3, okna: 1, meble: 0
+Kontrola wymiarami pokoi: pominięta (brak odczytu tekstu)
+Zapisano: /home/kamcio96/projekty/vr-design/studio/projects/KarRok/model.json
+Podgląd kontrolny: /home/kamcio96/projekty/vr-design/studio/projects/KarRok/model_debug.png
